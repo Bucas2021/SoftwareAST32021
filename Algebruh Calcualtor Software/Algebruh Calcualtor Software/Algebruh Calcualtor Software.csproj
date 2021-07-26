@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Algebruh_Calcualtor_Software</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Mathematical.Expressions">
+      <HintPath>..\..\..\..\Downloads\Mathematical.Expressions\Mathematical.Expressions\x64\Mathematical.Expressions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
